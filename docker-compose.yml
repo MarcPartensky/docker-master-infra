@@ -1,0 +1,12 @@
+services:
+  front:
+    image: marcpartensky/docker-master-front
+    build: front
+    ports:
+      - "3000:3000"
+
+  back:
+    image: marcpartensky/docker-master-back
+    build: back
+    ports:
+      - "8000:80"
