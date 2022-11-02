@@ -1,3 +1,6 @@
 [submodule "front"]
 	path = front
 	url = git@github.com:crakleurs/docker-master
+[submodule "back"]
+	path = back
+	url = git@github.com:crakleurs/docker-master
